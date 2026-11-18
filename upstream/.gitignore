@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets / local runtime
+.env
+.env.*
+!.env.example
+credentials.json
+state.json
+accounts.outlook.csv
+accounts.txt
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Browser/runtime artifacts
+/tmp/
+mr-screenshots/
+mr-logs/
+playwright-report/
+test-results/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
